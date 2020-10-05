@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+	<meta charset = "utf-8">
+	<title>Explore Iceland</title>
+	 	 
+	<style>
+
+body{
+
+	background-image: url("./bg1.png"); 
+	background-color:#696969;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: screen;
+	}
+	
+.header {font-family: Comic Sans MS, cursive, sans-serif;
+	font-stretch:ultra-expanded;
+	font-size: 300%;
+	color: #778899;
+	padding: 10px;
+	text-align: center;
+	}
+
+.column {
+	float: left;
+	width: 32%;
+	padding: 12px;
+}
+
+.row:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+p {font-family: Comic Sans MS, cursive, sans-serif;
+	color: #2f4f4f;
+	font-size: 160%;
+	text-align: left;
+	}
+		
+	
+h2 {font-family: Comic Sans MS, cursive, sans-serif;
+	font-stretch:ultra-expanded;
+	font-size: 300%;
+	color: #5f9ea0;
+	text-align: center;}
+
+.footer{
+		font-family: Comic Sans MS, cursive, sans-serif;
+		color: #2f4f4f;
+		background-color: #778899;
+		text-align: center;
+		padding: 10px;
+		}
+		
+.container{
+	position: relative;
+	width: 50%
+	}
+
+.img{
+	display: block;
+	width:100%;
+	height: auto;
+	padding: 1px 50px;
+}
+
+.overlay{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left: 49px;
+	right:20px;
+	height: 98.5%;
+	width: 177%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #778899;
+	}
+	
+.container:hover .overlay{
+	opacity: 0.6;
+	}
+
+.text {
+	font-family: Comic Sans MS, cursive, sans-serif;
+	text-align: center;
+	color: #f0f8ff;
+	font-size: 35px;
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}	
+	</style>
+</head>	
+
+<body>
+<div class = "header">
+	<h1>Explore Iceland </h1>
+</div>
+
+<div class = "row">
+	<div class = "column">
+		<h2> Waterfall </h2>
+		<div class = "container">
+			<div class = "img">
+				<img src="waterfall.jpg" alt = "waterfall" width = "650" height = "320">
+				<div class = "overlay">
+					<div class = "text">Godafoss</div>
+				</div>
+			</div>
+		</div>
+		<p> From the world-famous Gullfoss Waterfall at the Golden Circle to the Dynjandi  Westfjord, you will find a myriad of waterfalls across this amazing land. Most of them has directions for tourists or can be 
+		found by navigation tools. The photo shows Godafoss Waterfall, one of the "Top 10 Beautiful Waterfalls in Iceland. You can either enjoy it from the top through an easy hike or take a step further down the rocks to enjoy the
+		spectacular panorama from the bottom of the waterfall.</p>	
+	</div>
+	
+	<div class = "column">
+		<h2> Glacier </h2>
+		<div class = "container">
+			<div class = "img">
+				<img src="glacier.jpg" alt = "glacier" width = "650" height = "320">
+				<div class = "overlay">
+					<div class = "text"> Jokulsarlon</div>
+				</div>
+			</div>
+		</div>
+		<p> Do you know that if you spread out the ice from glaciers across Iceland, there would be a 35m thick layer? There are many ways to explore glaciers -  you can hop on a boat at Jokulsarlon Glacier Lake and 
+		enjoy the one-and-only view of the aquamarine floating glaciers as a laid-back option. Alternatively, quench your adventureous spirit and hike on the largest glacier -  Vatnajokull and get your mind blown by 
+		the wonder of nature.</p>
+    </div>
+	
+	<div class = "column">
+		<h2> Wildlife </h2>
+		<div class ="container">
+				<div class = "img">	
+				<img src="wildlife.jpg" alt = "wildlife" width = "650" height = "320">
+				<div class = "overlay">
+					<div class = "text"> Vigur Island</div>
+				</div>
+				</div>			
+		</div>
+		<p> For animal lovers, Iceland has endless surprises for you. Surrounded by the North Atlantic Ocean, the east and west coast offer the biggest opportunities to spot Minke Whales and Humpback Whales during summertime.
+			Heading west from the north coast to the Westfjord, you will find puffins, golden plovers, and even arctic foxes that are protected at the Sudavik Arctic Fox Center. Of course, icelandic sheep and icelandic horses
+			will keep you company throughout your roadtrip. </p>
+    </div>
+</div>
+
+<div class = "footer"> 
+<h2> To Learn More About Iceland </h2>
+	<ul>
+		<li> <a href = "https://guidetoiceland.is/"> Guide to Iceland </a> - the official and ultimate travel guide you need </li>
+		<li> <a href = "https://www.kimkim.com/d/iceland"> Kimkim </a> - A great reference on planning your roadtrip </li>
+		<li> <a href = "http://www.road.is/travel-info/"> Official website of Iceland Traffic Agency </a> - See which roads are open/closed and get real-time update on road conditions</li>
+	</ul>
+</div>
+
+</body>
+</html>
