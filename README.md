@@ -1,3 +1,4 @@
 # ExploreIcelandWebpage
 A website dedicated to offer travel tips and information on visiting Iceland. 
 ![](https://github.com/lapin659/ExploreIcelandWebpage/blob/fb9a2ab9cac2e5a11f3272df1001facebd3f629e/exploreIceland/SI.PNG)
+![](https://github.com/lapin659/ExploreIcelandWebpage/blob/d193382f9c0625da6c46c529854a4bf1dcd06b0c/exploreIceland/sp.PNG)
